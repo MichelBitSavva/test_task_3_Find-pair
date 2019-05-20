@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  text-align: center;
+}
+.wrap_field {
+  height: 410px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.field {
+  height: auto;
+  width: 408px;
+  margin: 0 auto;
+}
+
+.field a {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  float: left;
+}
+
+.field .color1 {
+  background-color: #ff0000;
+}
+.field .color2 {
+  background-color: #ff8000;
+}
+.field .color3 {
+  background-color: #ffff00;
+}
+.field .color4 {
+  background-color: #40ff00;
+}
+.field .color5 {
+  background-color: #01dfd7;
+}
+.field .color6 {
+  background-color: #0000ff;
+}
+.field .color7 {
+  background-color: #ff00bf;
+}
+.field .color8 {
+  background-color: #071918;
+}
+.field .hidden {
+  background-color: white;
+}
+
+.wrap {
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+}
+.wrap_form {
+  height: auto;
+  width: 408px;
+  text-align: center;
+  margin: auto;
+}
+
+.result {
+    display: block;
+    min-height: 100px;
+    width: 408px; 
+    position: relative; 
+    text-align: left;
+    border: 1px solid black;    
+    margin:5px auto;    
+}
+.result_button{
+    height: 20px;
+    width: 60px;
+    position: absolute; 
+    bottom: 0px;
+    left: 0; 
+    right: 0;
+    margin: 5px auto;
+   
+}
+
+
